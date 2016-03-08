@@ -72,7 +72,7 @@ public class CodePush {
     private String appVersion;
     private int buildVersion;
     private String deploymentKey;
-    private final String serverUrl = "https://codepush.azurewebsites.net/";
+    private final String serverUrl = "http://172.22.120.89:6500/";
 
     private Activity mainActivity;
     private Context applicationContext;
