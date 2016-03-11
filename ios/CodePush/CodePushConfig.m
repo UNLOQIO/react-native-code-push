@@ -42,7 +42,7 @@ static NSString * const ServerURLConfigKey = @"serverUrl";
     }
     
     if (!serverURL) {
-        serverURL = @"http://172.22.120.89:6500/";
+        serverURL = @"https://codepush.appscene.io/";
     }
     
     _configDictionary = [[NSMutableDictionary alloc] initWithObjectsAndKeys:
